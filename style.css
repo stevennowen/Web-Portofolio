@@ -43,10 +43,12 @@ body {
   text-align: center;
   padding: 14px 16px;
   font-family: Arial, sans-serif;
+  transition: transform 0.3s ease;
 }
 
 .navbar-right a:hover {
-  color: black;
+  color: yellowgreen;
+  transform: scale(1.1);
 }
 
 .home {
